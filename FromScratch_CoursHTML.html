@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoursHTML</title>
+  </head>
+  <body>
+    <div>
+      <h4>Tableaux</h4>
+      <table border="1" width="50%">
+        <caption>
+          Populations d'Europe
+        </caption>
+        <thead>
+          <tr>
+            <th>Pays</th>
+            <th>Population</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>France</th>
+            <th>66M</th>
+          </tr>
+          <tr>
+            <th>Allemagne</th>
+            <th>82M</th>
+          </tr>
+          <tr>
+            <th>Espagne</th>
+            <th>47M</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+    <section>
+      <form action="/action.php" method="post">
+        <label for="name">Nom</label>
+        <input id="name" type="text" placeholder="Entrez votre nom" /><br />
+        <label for="age">Age</label>
+        <input id="age" type="number" placeholder="Entrez votre âge" />
+        <label for="genre"></label>
+        <select id="genre">
+          <option value="homme">Homme</option>
+          <option value="femme">Femme</option>
+          <option selected value="femme">Femme</option></select
+        ><br />
+
+        <div>
+          <input type="radio" name="espece" id="human" />
+          <label for="human">Humain</label>
+          <input type="radio" name="espece" id="dog" />
+          <label for="dog">Chien</label>
+          <input type="radio" name="espece" id="cat" />
+          <label for="cat">Chat</label>
+        </div>
+        <br />
+        <textarea cols="30" rows="10"></textarea><br />
+        <label><input type="checkbox" />Accepter les conditions </label><br />
+        <input type="submit" value="valider" />
+      </form>
+    </section>
+    <br />
+    <a href="mailto:clementbadin@gmail.com">Ecrivez-moi !</a><br />
+    <a href="monDocument" download="nomDuFichier">Télécharger la notice</a
+    ><br />
+  </body>
+</html>
